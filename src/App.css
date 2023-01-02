@@ -1,0 +1,85 @@
+
+
+.wrapper{
+    width: 400px;
+    max-width: 100%;
+    min-height: 500px;
+    margin: 20px auto 40px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 40px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #b6d0fd;
+    overflow: hidden;
+    position: relative;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6a9ef9;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+input{
+    padding: 8px 10px;
+    border: 1px solid #ddd; 
+    min-width: 100%;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.addbtn{
+   background-color: rgb(35, 90, 167);
+   color: #fff;
+   border-radius: 4px;
+   padding: 5px;
+   margin: 8px 4px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.delbtn{
+    background-color: rgb(167, 35, 35);
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 8px 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+
+ .updatebtn{
+    background-color: rgb(41, 60, 204);
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 8px 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+ .todo{
+   background-color: #ddd;
+   border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   font-size: 20px;
+   font-weight: 800;
+   margin-bottom: 10px;
+   text-shadow: #6a9ef9;   
+ }
+
+
+ .icon{
+    position: relative;
+    top: -14px;
+    left: 330px;
+  
+ }
+
+ .up{
+    color: #c52b0d;
+    
+ }
+ .del{
+    color: #edba10;
+ }
